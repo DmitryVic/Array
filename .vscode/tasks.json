@@ -9,7 +9,7 @@
             "-std=c++20", //стандарт
             "-g", // для отладки нужен
             "main.cpp",
-            "IntegerArray.cpp",
+            //"IntegerArray.cpp",
             "-o",//для изменения имени
             "${workspaceFolder}/a.exe"//выходной файл
           ],
