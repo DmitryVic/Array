@@ -1,0 +1,10 @@
+^C:\USERS\GAMEPC\DESKTOP\CPP\HW_8\BUILD\CMAKEFILES\8B57EFF1997048B192B536CF5B46F096\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/GamePC/Desktop/CPP/HW_8 -BC:/Users/GamePC/Desktop/CPP/HW_8/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/GamePC/Desktop/CPP/HW_8/build/Array.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
